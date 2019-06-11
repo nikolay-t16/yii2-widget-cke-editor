@@ -1,0 +1,24 @@
+{
+    "name": "nikolay-t16/yii2-widget-cke-editor",
+	"description": "Yii2 widget CKE editor",
+    "license": "MIT",
+    "type": "yii2-extension",
+	"authors": [
+        {
+            "name": "Nikolay",
+            "email": "nikolay.ter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"nikolayt16\\editor\\": "src/"}
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+	"extra": {
+		"asset-installer-paths": {
+			"npm-asset-library": "vendor/npm",
+			"bower-asset-library": "vendor/bower"
+		}
+	}
+}
